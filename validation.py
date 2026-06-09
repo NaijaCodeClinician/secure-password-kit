@@ -130,8 +130,8 @@ def valid_mail(email):
     
 if __name__ == "__main__":
     print("Check if the following inputs are valid:")
-    print(f"(1)\t56: {valid_number('56')}")
-    print(f"(2)\t5.6: {valid_decimal_number('5.6')}")
+    print(f"(1)\t56: {valid_number("56")}")
+    print(f"(2)\t5.6: {valid_decimal_number("5.6")}")
     print(f"(3)\t6y: {valid_number('6y')}")
     print(f"(4)\ttred: {valid_number('trred')}")
     print(f"(5)\t+234+4536+789: {valid_phone('+234+4356+789')}")
